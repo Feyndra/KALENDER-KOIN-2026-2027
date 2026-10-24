@@ -67,7 +67,7 @@ function card(e){
   var h=el('div','bd',e.src||'TBA');h.style.background=col[0];h.style.color=col[1];c.appendChild(h);
   c.appendChild(el('div','nm',e.name));
   var w=e.start?(e.end?e.start+' - '+e.end:e.start):'TBA',p=(e.who||'TBA').toUpperCase();
-  [['Waktu',w,''],['Lokasi',e.loc||'TBA',''],['Peserta',p,p==='TERBUKA'?'p-terbuka':'']].forEach(function(x){
+  [['Jam',w,''],['Lokasi',e.loc||'TBA',''],['Peserta',p,p==='TERBUKA'?'p-terbuka':'']].forEach(function(x){
     var r=el('div','r');r.appendChild(el('div','lb',x[0]));
     var v=el('div','vl'+(x[1]==='TBA'?' tba':'')+(x[2]?' '+x[2]:''),x[1]);r.appendChild(v);c.appendChild(r)});
   if(e.note)c.appendChild(el('div','ket',e.note));
