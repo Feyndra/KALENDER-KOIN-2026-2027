@@ -1,6 +1,6 @@
 (function(){
 var CFG=(typeof window!=='undefined'&&window.KOIN_CONFIG)||{};
-var SRC={KPA:['#7A1410','#fff'],DIKYANMAS:['#F0C040','#4A2E00'],KAMINFO:['#8B4A2B','#fff'],KADERISASI:['#E04444','#fff'],HUBLU:['#C87428','#fff'],DAURIS:['#F5DC8A','#4A2E00'],KABINET:['#2B2B2B','#fff']};
+var SRC={KPA:['#8B1E1A','#fff'],DIKYANMAS:['#F2B705','#3B2A00'],KAMINFO:['#0E7C86','#fff'],KADERISASI:['#D93B3B','#fff'],HUBLU:['#2F6DB5','#fff'],DAURIS:['#F1B6C4','#5C1830'],KABINET:['#6A3FA0','#fff']};
 var MON={jan:0,januari:0,feb:1,februari:1,mar:2,maret:2,apr:3,april:3,mei:4,may:4,jun:5,juni:5,jul:6,juli:6,agu:7,agt:7,agustus:7,aug:7,august:7,sep:8,sept:8,september:8,okt:9,oktober:9,oct:9,october:9,nov:10,november:10,des:11,desember:11,dec:11,december:11};
 var BLN=['JAN','FEB','MAR','APR','MEI','JUN','JUL','AGU','SEP','OKT','NOV','DES'];
 var BLNF=['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
