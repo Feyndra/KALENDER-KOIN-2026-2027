@@ -26,7 +26,7 @@ main{max-width:1500px;margin:0 auto;padding:14px 28px}
 .stat button{border:1px solid var(--ink);color:var(--ink);background:#fff;border-radius:6px;padding:3px 10px;font:500 11px Poppins,sans-serif;cursor:pointer}
 .warn{background:#FFF0F0;border:1px solid #D93B3B;color:#7A1410;border-radius:8px;padding:8px 12px;margin-bottom:10px;font-size:12px}
 .wd,.week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}
-.wd div{background:var(--ly);color:var(--ink);text-align:center;font:400 14px "Fugas One",sans-serif;padding:5px;border-radius:6px}
+.wd div{background:#9A5B1E;color:#fff;text-align:center;font:400 15px "Fugas One",sans-serif;letter-spacing:1px;padding:6px 5px;border-radius:6px}
 .week{margin-top:8px;padding-bottom:8px;border-bottom:2px solid var(--ink);align-items:start}
 .day{min-width:0}
 .dd{background:var(--ink);color:#fff;text-align:center;font:400 15px "Fugas One",sans-serif;padding:3px;border-radius:6px;margin-bottom:6px}
