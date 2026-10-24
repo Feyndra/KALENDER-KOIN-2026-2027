@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kalender Kegiatan | Kabinet Aswara Satya KOIN</title>
+<link rel="icon" href="assets/logo-koin.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fugas+One&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <img class="logo" src="assets/logo-koin.png" alt="Logo KOIN Unila">
+  <div class="ttl">
+    <h1>KALENDER KEGIATAN</h1>
+    <h2>KABINET ASWARA SATYA</h2>
+    <p>KOMUNITAS INTEGRITAS PERIODE 2026/2027</p>
+  </div>
+  <img class="logo" src="assets/logo-kabinet.png" alt="Logo Kabinet Aswara Satya">
+</header>
+<nav class="bar">
+  <button id="prev" aria-label="Bulan sebelumnya">&#8249;</button>
+  <div class="mt"><select id="msel" aria-label="Pilih bulan"></select></div>
+  <button id="next" aria-label="Bulan berikutnya">&#8250;</button>
+</nav>
+<main>
+  <div class="tools">
+    <div class="legend" id="legend" aria-label="Filter bidang dan biro"></div>
+    <div class="stat"><span id="status"></span><button id="refresh" type="button">Perbarui</button></div>
+  </div>
+  <div id="warn" class="warn" hidden></div>
+  <div id="cal"></div>
+</main>
+<footer>Kabinet Aswara Satya &middot; Komunitas Integritas Unila</footer>
+<script src="config.js"></script>
+<script src="sample-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
